@@ -1,11 +1,16 @@
 const express = require('express');
 const cors = require('cors');
 const fetch = require('cross-fetch');
+require("dotenv").config();
 
 const app = express();
 const port = process.env.PORT || 3000;
 
 app.use(cors());
+
+app.get("/", (req,res) => {
+    res.redirect("/api/restaurants")
+})
 
 // For Restaurant API
 app.get('/api/restaurants', async (req, res) => {
