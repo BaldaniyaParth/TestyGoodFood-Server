@@ -3,6 +3,8 @@
 A TestyGoodFood Server (Node.js web server) that fetches data from a third-party (Swiggy) API (Fix the CORS Issue).
 
 ## TestyGoodFood Server Link : 
+- SWIGGY_RESTAURANT_API_URL :- https://testygoodfood-server.onrender.com/api/restaurants?lat=21.1702401&lng=72.83106070000001&page_type=DESKTOP_WEB_LISTING%22
+- SWIGGY_MENU_API_URL :- https://testygoodfood-server.onrender.com/api/menu?page-type=REGULAR_MENU&complete-menu=true&lat=21.1702401&lng=72.83106070000001&&submitAction=ENTER&restaurantId=74644
 
 ## TestyGoodFood Website(Client) Link : 
 
